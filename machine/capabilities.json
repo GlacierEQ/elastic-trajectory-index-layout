@@ -1,0 +1,12 @@
+{
+  "schema": "glaciereq.repo-capabilities.v1",
+  "repository": "GlacierEQ/elastic-trajectory-index-layout",
+  "capabilities": [
+    {
+      "id": "trajectory-index-layout",
+      "name": "Trajectory Index Layout",
+      "status": "SCAFFOLD",
+      "module": "src/trajectory_index_layout.py"
+    }
+  ]
+}

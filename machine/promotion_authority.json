@@ -1,0 +1,11 @@
+{
+  "schema": "glaciereq.promotion-authority-grant.v1",
+  "repository": "GlacierEQ/elastic-trajectory-index-layout",
+  "source_sha": "5152fc2b560619b37965dda7d061db3591e6c6d2efb4a81eac4cda21972f04ea",
+  "proof_receipt_digest": "580395a82c38665c66df2aa51e02ba3c373374cb0fbd13ef588f40d9fdff047b",
+  "not_after": 1788948656.6099782,
+  "mac": "95eb214d4aa5248b425bb193f573a7c194bff5f12d94f6c2ca84c69c7cec8fa5",
+  "issuer": "local_operator_promotion_authority",
+  "verified": true,
+  "secret_ref": "src/promotion_authority.py::LOCAL_OPERATOR_SECRET"
+}
