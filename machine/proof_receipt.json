@@ -4,12 +4,12 @@
   "source_sha": "5152fc2b560619b37965dda7d061db3591e6c6d2efb4a81eac4cda21972f04ea",
   "proof_id": "elite-elastic-trajectory-index-layout-1786356656",
   "environment": {
-    "python": "/Users/kcbflux/.local/bin/python3.11",
-    "PYTHONPATH": "/Users/kcbflux/GlacierEQ_Swarm/job-app/repos/elastic-trajectory-index-layout:/Users/kcbflux/GlacierEQ_Swarm/job-app/repos/elastic-trajectory-index-layout/src",
+    "python": "${HOME}/.local/bin/python3.11",
+    "PYTHONPATH": "${HOME}/GlacierEQ_Swarm/job-app/repos/elastic-trajectory-index-layout:${HOME}/GlacierEQ_Swarm/job-app/repos/elastic-trajectory-index-layout/src",
     "entry": "unittest"
   },
   "tests": [
-    "/Users/kcbflux/.local/bin/python3.11 -m unittest discover -s tests -v (x2)"
+    "${HOME}/.local/bin/python3.11 -m unittest discover -s tests -v (x2)"
   ],
   "adversarial_tests": [
     "tests/test_adversarial.py"
